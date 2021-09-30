@@ -171,10 +171,8 @@ app.get('/busyworkActivites', (req, res) => {
 app.get('/musicActivites', (req, res) => {
   return res.json(act.musicActivites[getRandom(act.musicActivites.length)])
 })
-
-
 app.get('/allActivites', (req, res) => {
-  return res.json(populations)
+  return res.json(act.allActivites)
 })
 
 module.exports = app;
