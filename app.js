@@ -42,7 +42,6 @@ class getActivities
 	constructor()
 	{
 		this.getAllItems();
-		_callback();
 	}
 	async getAllItems()
 	{
